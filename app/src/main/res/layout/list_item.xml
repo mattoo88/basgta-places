@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="7dp"
+        android:background="@drawable/row_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:padding="1dp"
+            android:background="#e6e6e6"/>
+
+        <TextView
+            android:id="@+id/brandName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logoImage"
+            android:textSize="20sp"
+            
+            android:textStyle="normal"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/offers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/brandName"
+            android:layout_toRightOf="@id/logoImage"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light"
+            />
+        
+        <TextView
+            android:id="@+id/categories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoImage"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="5dp"
+            android:textStyle="normal"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <!-- <TextView
+            android:id="@+id/latitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/longitude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" /> -->
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/categories"
+            android:drawableLeft="@drawable/location_icon_blue"
+            android:drawablePadding="1dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light" />
+<!-- 
+         <TextView
+             android:id="@+id/distance1"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/categories"
+             android:layout_toRightOf="@id/brandName"
+             android:text="Text"
+             android:textStyle="bold" /> -->
+         
+        <TextView
+            android:id="@+id/neighbourhoodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/categories"
+            android:layout_toRightOf="@id/distance"
+            android:layout_marginLeft="5dp"
+            android:textSize="15sp"
+            android:textColor="@android:color/tertiary_text_light" />
+    </RelativeLayout>
+
+</FrameLayout>

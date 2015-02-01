@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.bagsta.jsonparser.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/action_search"
+        android:showAsAction="always"
+        android:title="Search"
+        android:icon="@drawable/search"/>
+
+</menu>
+<!-- From: file:/C:/Users/Stephen/AndroidStudioProjects/Bagsta%20Places/app/src/main/res/menu/main.xml -->

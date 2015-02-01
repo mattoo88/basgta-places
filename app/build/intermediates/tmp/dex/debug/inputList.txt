@@ -1,0 +1,8 @@
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\classes\debug
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-d9843391793148d784449f6b88c683c2dd68490a.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\classes-db58b06cff1889ccf71cda4ffa240c2abcef3774.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\acra-4.5.0-775a7330e1e6df2df969b33db043ef8a2651e5fa.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\classes-e9f2324d3d697c110f3ff1e2b776d0491b91abc2.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-fd41303fc12321ee65c0f7ae7d4d9649597a401a.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\classes-d66e165191d95b7fb0c19beaecd8c9654ea846da.jar
+C:\Users\test\AndroidstudioProjects\Bagsta Places\app\build\intermediates\pre-dexed\debug\classes-9055d7f25b6cdc6fd949a31b8646aff203707cba.jar

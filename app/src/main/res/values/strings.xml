@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">B Dunia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="crash_toast_text">Oops! I Crashed, but a report will be sent to my developer to help him fix this issue</string>
+    <string name="API_KEY_PLACES">AIzaSyB6MXMO0JnuzYZ-dmAK8uBfvL6HqlgN1H0</string>
+    <string name="title_activity_category">CategoryActivity</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bagsta.places.MainActivity">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:layout_weight="1"
+        />
+    
+	<Button
+	    android:id="@+id/clear_btn"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:text="Category" />
+
+</LinearLayout>
+<!-- From: file:/C:/Users/Stephen/AndroidStudioProjects/Bagsta%20Places/app/src/main/res/layout/activity_main.xml -->
